@@ -1,0 +1,12 @@
+services:
+  # no need volumes, if want to mount a volume, make sure it doesn't override working directory
+  yingkou-assethub-web:
+    image: yc3231996/yingkou-assethub-web:latest
+    ports:
+      - "5000:3000"
+    # 使用 env_file 指定环境变量文件，自动注入容器
+    env_file:
+      - ./.env
+    volumes:
+      # 根据Dockerfile，运行阶段的工作目录是 /app，正确的挂载路径应该是 /app/config
+      - ./config:/app/config

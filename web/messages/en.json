@@ -1,0 +1,263 @@
+{
+  "login": {
+    "loginTitle": "Login",
+    "username": "Email",
+    "password": "Password",
+    "result": {
+      "success": "Login Success",
+      "failed": "Login Failed",
+      "successDesc": "Login Successful",
+      "failedDesc": "Login Failed",
+      "contentEmpty": "Please enter username and password",
+      "contentError": "Incorrect username or password"
+    },
+    "appName": "Material Management Platform",
+    "appDescription": "Manage PGC and UGC materials, empowering short video marketing",
+    "appTexts": "1. Material Upload <br/> 2. Material Search <br/> 3. Material Push"
+  },
+  "siderbar": {
+    "appName": "Material Management",
+    "triggerOpen": "Expand Sidebar",
+    "triggerClose": "Collapse Sidebar",
+    "menus": {
+      "upload": "Material Upload",
+      "ai_search": "AI Search",
+      "search": "Material Search",
+      "pushto": "Material Push"
+    },
+    "adminMenus": {
+      "metadata": "Metadata Management",
+      "category": "Tag Management",
+      "platform": "Channel Management",
+      "label": "Label Management"
+    }
+  },
+
+  "userNav": {
+    "admin": "Admin Panel",
+    "logout": "Logout"
+  },
+  "inputSearch": {
+    "placeholder": "Enter search keywords",
+    "search": "Search"
+  },
+  "material": {
+    "material_id": "Material ID",
+    "material_name": "Material Name",
+    "main_category": "Main Category",
+    "first_level_category": "Primary Category",
+    "second_level_category": "Secondary Category/Product",
+    "product_name": "Secondary Category/Product",
+    "material_category": "Material Category",
+    "video_type": "Video Type",
+    "source_type": "Source Type",
+    "material_type": "Material Type",
+    "topic": "Template",
+    "target_country": "Country",
+    "target_platform": "Platform",
+    "status": "Status",
+    "external_id": "Post ID",
+    "push_status": "Push Status",
+    "post_date": "Post Date",
+    "fail_reason": "Failure Reason",
+    "user_id": "User ID",
+    "editor_name": "Editor",
+    "director_name": "Director",
+    "owner_team": "Owning Team",
+    "duration": "Duration (seconds)",
+    "metadata": "Metadata",
+    "created_at": "Created At",
+    "publish_at": "Published At",
+    "isAI": "Enable AI interpretation/tagging after upload?"
+  },
+  "upload": {
+    "uploadText": "Click to upload video material",
+    "all": "All",
+    "ugc": "UGC",
+    "pgc": "PGC",
+    "submit": "Submit",
+    "resumit": "Re-upload",
+    "cancel": "Cancel Upload",
+    "saveTemplate": "Save as new default settings",
+    "multiUpload": "Batch Upload",
+    "templateplaceholder": "Select Default Setting",
+    "success": "Upload Successful",
+    "pushto": "Push to TT",
+    "next": "Continue Upload",
+    "error": "Upload Failed",
+    "uploading": "Uploading...",
+    "uploadError": "Upload failed, click to retry"
+  },
+  "search": {
+    "select": "Select",
+    "unselect": "Unselect",
+    "isAll": "Select All",
+    "notIsAll": "Unselect All",
+    "search": "Search",
+    "reset": "Clear Filters",
+    "searching": "Searching...",
+    "filterTitle": "Filter Search Results",
+    "noResult": "No matching results",
+    "noSearch": "Enter a description, AI will find the most relevant materials",
+    "noSearchTips": "Examples: A young woman wearing a pink headscarf. Or: Blue medical gloves.",
+    "field": {
+      "data_time": "Ad Performance",
+      "created_at": "Creation Time"
+    }
+  },
+  "admin": {
+    "template": {
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "metadata": {
+      "title": "Metadata Management",
+      "addMetadata": "Add Metadata"
+    },
+    "category": {
+      "title": "Category Management"
+    }
+  },
+  "table": {
+    "operation": "Actions",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "push": "Publish",
+    "detail": "Details"
+  },
+  "List": {
+    "noResult": "No matching results"
+  },
+  "Reset": {
+    "submit": "Reset",
+    "toLogin": "Go to Login",
+    "passwordPlaceholder": "Enter password"
+  },
+  "Password": {
+    "placeholder": "Password"
+  },
+  "EditableTable": {
+    "index": "No.",
+    "action": "Actions",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "addRow": "Add Row",
+    "batchOperation": "Batch Operations"
+  },
+  "Material": {
+    "notFound": "Material Not Found",
+    "notFoundDesc": "The material you are looking for does not exist or has been removed."
+  },
+  "MaterialEdit": {
+    "edit": "Edit",
+    "title": "Edit Material Info",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "PushPlatform": {
+    "submit": "Push",
+    "cancel": "Cancel",
+    "viewList": "View Push List",
+    "material": "Material",
+    "identity_id": "Account ID",
+    "adgroup_id": "Ad Group ID",
+    "ad_text": "Ad Copy"
+  },
+  "Pushto": {
+    "push": "Push to TT"
+  },
+  "Download": {
+    "download": "Download",
+    "downloading": "Downloading...",
+    "downloadFailed": "Download Failed"
+  },
+  "DatePicker": {
+    "placeholder": "Start Time - End Time",
+    "start": "Start Time",
+    "end": "End Time"
+  },
+  "Storyboard": {
+    "shot_content": "Shot Content",
+    "purpose": "Purpose",
+    "subtitle": "Subtitle",
+    "narration": "Narration/Voiceover",
+    "similarity": "Matching Similarity",
+    "title": "AI Interpretation",
+    "download": "Download All Copy",
+    "copy_all": "Copy All",
+    "details": "Details",
+    "button": {
+      "NotProcessed": "Start AI Interpretation",
+      "Scheduled": "Scheduled",
+      "Processing": "Processing",
+      "Completed": "View AI Interpretation",
+      "Failed": "Failed, Retry",
+      "resubmit": "Re-submit AI Interpretation"
+    },
+    "message": {
+      "error": "Material interpretation failed, please retry",
+      "success": "Material interpretation in progress, please refresh later",
+      "copy_success": "Copied to clipboard",
+      "copy_failed": "Copy failed, please retry"
+    },
+    "status": {
+      "NotProcessed": "Not Processed",
+      "Scheduled": "Scheduled",
+      "Processing": "Processing",
+      "Completed": "Completed",
+      "Failed": "Failed"
+    }
+  },
+  "Metrics": {
+    "gmv": "GMV",
+    "spend": "Cost",
+    "impressions": "Ads Impression",
+    "roi": "ROAS",
+    "video_views": "Video Views",
+    "clicks": "Clicks",
+    "retain": "Retain",
+    "drop_off": "Drop Off",
+    "ctr": "CTR",
+    "conversions": "Conversions",
+    "cvr": "CVR",
+    "cpc": "CPC",
+    "cpm": "CPM",
+    "average_video_play": "Avg Video Play"
+  },
+  "MetricsFilter": {
+    "button": "Advanced Filters",
+    "reset": "Reset"
+  },
+  "StatusTag": {
+    "NotUsed": "Not Launched",
+    "Used": "Launched",
+    "Failed": "Launch Failed"
+  },
+  "Sort": {
+    "sortBy": "Sort By",
+    "placeholder": "Select",
+    "reset": "Reset"
+  },
+  "SearchInput": {
+    "search": "Search",
+    "placeholder": "Enter search keywords"
+  },
+  "Report": {
+    "use_data": "Usage Data",
+    "highlights_data": "Highlights Data",
+    "search": "Search",
+    "account": "Ad Account",
+    "data_time": "Ad Performance",
+    "account_data_time": "Ad Account Performance",
+    "total": "Total",
+    "message": {
+      "data_time_empty": "Please select ad performance time",
+      "account_time_empty": "Please select the corresponding time for the ad account"
+    }
+  }
+}

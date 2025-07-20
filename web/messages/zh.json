@@ -1,0 +1,262 @@
+{
+  "login": {
+    "loginTitle": "登录",
+    "username": "邮箱",
+    "password": "密码",
+    "result": {
+      "success": "登录成功",
+      "failed": "登录失败",
+      "successDesc": "登录成功",
+      "failedDesc": "登录失败",
+      "contentEmpty": "请输入用户名和密码",
+      "contentError": "用户名或密码错误"
+    },
+    "appName": "素材管理平台",
+    "appDescription": "管理PGC和UGC素材，助力短视频营销",
+    "appTexts": "1. 素材上传 <br/> 2. 素材搜索 <br/> 3. 素材推送"
+  },
+  "siderbar": {
+    "appName": "素材管理平台",
+    "triggerOpen": "打开边栏",
+    "triggerClose": "收起边栏",
+    "menus": {
+      "upload": "素材上传",
+      "ai_search": "AI搜索",
+      "search": "素材搜索",
+      "pushto": "素材推送"
+    },
+    "adminMenus": {
+      "metadata": "元数据管理",
+      "category": "标签管理",
+      "platform": "渠道管理",
+      "label": "标签管理"
+    }
+  },
+  "userNav": {
+    "admin": "管理后台",
+    "logout": "退出登录"
+  },
+  "inputSearch": {
+    "placeholder": "请输入搜索",
+    "search": "搜索"
+  },
+  "material": {
+    "material_id": "素材ID",
+    "material_name": "素材名称",
+    "main_category": "主类目",
+    "first_level_category": "一级分类",
+    "second_level_category": "二级分类/产品",
+    "product_name": "二级分类/产品",
+    "material_category": "素材分类",
+    "video_type": "视频类型",
+    "source_type": "source_type",
+    "material_type": "素材类型",
+    "topic": "主题",
+    "target_country": "国家",
+    "target_platform": "平台",
+    "status": "状态",
+    "external_id": "postId",
+    "push_status": "push_status",
+    "post_date": "Post Date",
+    "fail_reason": "fail_reason",
+    "user_id": "user_id",
+    "editor_name": "剪辑",
+    "director_name": "编导",
+    "owner_team": "团队归属",
+    "duration": "视频时长(秒)",
+    "metadata": "元数据",
+    "created_at": "创建时间",
+    "publish_at": "发布时间",
+    "isAI": "是否上传后立即进行AI解读/打标？"
+  },
+  "upload": {
+    "uploadText": "点击上传视频素材",
+    "all": "全部",
+    "ugc": "UGC",
+    "pgc": "PGC",
+    "submit": "上传",
+    "resumit": "重新上传",
+    "cancel": "取消上传",
+    "saveTemplate": "上传并保存为模板",
+    "multiUpload": "批量上传",
+    "templateplaceholder": "选择模板",
+    "success": "上传成功",
+    "pushto": "推送TT",
+    "next": "继续上传",
+    "error": "上传失败",
+    "uploading": "上传中...",
+    "uploadError": "上传失败，点击重新上传"
+  },
+  "search": {
+    "select": "选择素材",
+    "unselect": "取消选择",
+    "isAll": "本页全选",
+    "notIsAll": "取消全选",
+    "search": "搜索",
+    "reset": "清空筛选项",
+    "searching": "搜索中...",
+    "filterTitle": "在搜索结果中筛选",
+    "noResult": "无符合要求的结果",
+    "noSearch": "输入一段话，AI会根据你的描述，给出最符合的素材",
+    "noSearchTips": " 如：一位戴着粉色头巾的年轻女性。或：面带微笑递药膏。",
+    "field": {
+      "data_time": "广告表现",
+      "created_at": "创建时间"
+    }
+  },
+  "admin": {
+    "template": {
+      "add": "添加",
+      "edit": "编辑",
+      "delete": "删除"
+    },
+    "metadata": {
+      "title": "元数据管理",
+      "addMetadata": "添加元数据"
+    },
+    "category": {
+      "title": "分类管理"
+    }
+  },
+  "table": {
+    "operation": "操作",
+    "add": "添加",
+    "edit": "编辑",
+    "delete": "删除",
+    "push": "发布",
+    "detail": "详情"
+  },
+  "List": {
+    "noResult": "无符合要求的结果"
+  },
+  "Reset": {
+    "submit": "重置",
+    "toLogin": "去登录",
+    "passwordPlaceholder": "请输入密码"
+  },
+  "Password": {
+    "placeholder": "密码"
+  },
+  "EditableTable": {
+    "index": "序号",
+    "action": "操作",
+    "add": "添加",
+    "edit": "编辑",
+    "delete": "删除",
+    "save": "保存",
+    "cancel": "取消",
+    "addRow": "新增一行",
+    "batchOperation": "批量操作"
+  },
+  "Material": {
+    "notFound": "未找到相关素材",
+    "notFoundDesc": "素材不存在或已删除"
+  },
+  "MaterialEdit": {
+    "edit": "编辑",
+    "title": "编辑素材信息",
+    "submit": "提交",
+    "cancel": "取消"
+  },
+  "PushPlatform": {
+    "submit": "推送",
+    "cancel": "取消",
+    "viewList": "查看推送列表",
+    "material": "素材",
+    "identity_id": "推送账号",
+    "adgroup_id": "广告组ID",
+    "ad_text": "广告文案"
+  },
+  "Pushto": {
+    "push": "推送TT"
+  },
+  "Download": {
+    "download": "下载",
+    "downloading": "下载中...",
+    "downloadFailed": "下载失败"
+  },
+  "DatePicker": {
+    "placeholder": "开始时间 - 结束时间",
+    "start": "开始时间",
+    "end": "结束时间"
+  },
+  "Storyboard": {
+    "shot_content": "分镜内容",
+    "purpose": "意图",
+    "subtitle": "字幕",
+    "narration": "口播/旁白",
+    "similarity": "匹配相似度",
+    "title": "AI解读",
+    "download": "下载所有文案",
+    "copy_all": "Copy All",
+    "details": "查看详情",
+    "button": {
+      "NotProcessed": "开始AI解读",
+      "Scheduled": "已调度",
+      "Processing": "拆解中",
+      "Completed": "查看AI解读",
+      "Failed": "拆解失败, 请重试",
+      "resubmit": "重新AI解读"
+    },
+    "message": {
+      "error": "素材解读失败，请重试",
+      "success": "素材解读中，请稍后刷新页面查看",
+      "copy_success": "已复制到剪贴板",
+      "copy_failed": "复制失败，请重试"
+    },
+    "status": {
+      "NotProcessed": "未处理",
+      "Scheduled": "已调度",
+      "Processing": "拆解中",
+      "Completed": "拆解完成",
+      "Failed": "拆解失败"
+    }
+  },
+  "Metrics": {
+    "gmv": "GMV",
+    "spend": "Cost",
+    "impressions": "Ads Impression",
+    "roi": "ROAS",
+    "video_views": "Video Views",
+    "clicks": "Clicks",
+    "retain": "Retain",
+    "drop_off": "Drop Off",
+    "ctr": "CTR",
+    "conversions": "Conversions",
+    "cvr": "CVR",
+    "cpc": "CPC",
+    "cpm": "CPM",
+    "average_video_play": "Avg Video Play"
+  },
+  "MetricsFilter": {
+    "button": "高级筛选",
+    "reset": "清空筛选"
+  },
+  "StatusTag": {
+    "NotUsed": "未投放",
+    "Used": "已投放",
+    "Failed": "投放失败"
+  },
+  "Sort": {
+    "sortBy": "排序",
+    "placeholder": "选择",
+    "reset": "清空排序"
+  },
+  "SearchInput": {
+    "search": "搜索",
+    "placeholder": "请输入搜索"
+  },
+  "Report": {
+    "use_data": "投放数据",
+    "highlights_data": "高光数据",
+    "search": "查询",
+    "account": "广告账户",
+    "data_time": "广告表现",
+    "account_data_time": "广告账户数据表现",
+    "total": "总计",
+    "message": {
+      "data_time_empty": "请选择广告表现时间",
+      "account_time_empty": "请选择广告账户对应的时间"
+    }
+  }
+}
